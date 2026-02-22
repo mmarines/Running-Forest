@@ -2,6 +2,8 @@
 // Running Forrest
 // Approx time: 22 hours
 // Creative Tilt:
+// Citations:
+// Background Music: drmseq - https://pixabay.com/music/video-games-summer-mix-243341/
 
 let config = {
     type: Phaser.AUTO,
@@ -19,7 +21,7 @@ let config = {
             }
         }
     },
-    scene: [Title, Play]
+    scene: [ Load, Title, Play ]
 }
 
 let game = new Phaser.Game(config)
